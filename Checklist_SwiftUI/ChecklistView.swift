@@ -14,7 +14,8 @@ struct ChecklistView: View {
     // ==========
     
     @ObservedObject var checklist = Checklist()
-
+    @State var newChecklistItemViewIsVisible = false
+    
     // User interface content and layout
     var body: some View {
         NavigationView {
@@ -35,15 +36,28 @@ struct ChecklistView: View {
                 .onDelete(perform: checklist.deleteListItem)
                 .onMove(perform: checklist.moveListItem)
             }
-            .navigationBarItems(trailing: EditButton())
-            .navigationBarTitle("Checklist")
+            .navigationBarItems(
+                leading: Button(action: { self.newChecklistItemViewIsVisible = true }) {
+                    HStack {
+                        Image(systemName: "plus.circle.fill")
+                        Text("Add Item")
+                    }
+                },
+                trailing: EditButton())
+                .navigationBarTitle("Checklist")
+        }
+        .sheet(isPresented: $newChecklistItemViewIsVisible) {
+            NewChecklistItemView(checklist: self.checklist)
         }
     }
-
+    
     
     // Methods
     // =======
-    
+    func printChecklistContents() {
+            print("ASD")
+        
+    }
 }
 
 

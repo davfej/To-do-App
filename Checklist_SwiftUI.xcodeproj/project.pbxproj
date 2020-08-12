@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632B338224E4006A001848CE /* NewChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632B338124E4006A001848CE /* NewChecklistItemView.swift */; };
 		63C305C824E28EF500BF3DCD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C305C724E28EF500BF3DCD /* ChecklistItem.swift */; };
 		63C305CA24E28FFD00BF3DCD /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C305C924E28FFD00BF3DCD /* Checklist.swift */; };
 		63C305CC24E2A35700BF3DCD /* EditChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C305CB24E2A35700BF3DCD /* EditChecklistItemView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		632B338124E4006A001848CE /* NewChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChecklistItemView.swift; sourceTree = "<group>"; };
 		63C305C724E28EF500BF3DCD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		63C305C924E28FFD00BF3DCD /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		63C305CB24E2A35700BF3DCD /* EditChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChecklistItemView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				63C305C924E28FFD00BF3DCD /* Checklist.swift */,
 				63C305C724E28EF500BF3DCD /* ChecklistItem.swift */,
 				63C305CB24E2A35700BF3DCD /* EditChecklistItemView.swift */,
+				632B338124E4006A001848CE /* NewChecklistItemView.swift */,
 				63E2672524DE916E0054DBB0 /* Assets.xcassets */,
 				63E2672A24DE916E0054DBB0 /* LaunchScreen.storyboard */,
 				63E2672D24DE916E0054DBB0 /* Info.plist */,
@@ -160,6 +163,7 @@
 				63E2672224DE916D0054DBB0 /* SceneDelegate.swift in Sources */,
 				63E2672424DE916D0054DBB0 /* ChecklistView.swift in Sources */,
 				63C305CC24E2A35700BF3DCD /* EditChecklistItemView.swift in Sources */,
+				632B338224E4006A001848CE /* NewChecklistItemView.swift in Sources */,
 				63C305C824E28EF500BF3DCD /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
