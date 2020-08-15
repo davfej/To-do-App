@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ChecklistItem: Identifiable {
+struct ChecklistItem: Identifiable, Codable {
     let id = UUID() // 'UUID' is a built-in struct which generates a universally unique value every time it's called.
     var name: String
     var isChecked: Bool = false

@@ -19,7 +19,6 @@ struct RowView: View {
                 Spacer()
                 Text(checklistItem.isChecked ? "✔️" : "")
             }
-            .background(Color(UIColor.systemBackground))
         }
     }
 }
